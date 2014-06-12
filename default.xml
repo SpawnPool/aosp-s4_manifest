@@ -27,6 +27,5 @@
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="packages/services/Telephony" name="platform_packages_services_telephony" remote="sp" revision="kk-4.4" />
   <project path="vendor/samsung" name="platform_vendor_samsung" remote="sp" revision="kk-4.4" />
-  <project path=".repo/local_manifests" name="aosp_manifest" remote="sp" revision="master" />
   <project path=".repo/local_manifests" name="spawn_manifest" remote="sp" revision="master" />
   </manifest>
