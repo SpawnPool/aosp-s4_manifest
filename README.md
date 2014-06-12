@@ -49,3 +49,4 @@ More options
  <project path="bionic" name="platform/bionic" revision="linaro_android_4.2.1" remote="linaro"/>
  <project path="dalvik" name="platform/dalvik" revision="linaro_android_4.2.1" remote="linaro" />
 </manifest>
+----------------
