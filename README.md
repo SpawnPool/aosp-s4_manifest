@@ -35,7 +35,8 @@ If `$TOP_DIR/.repo/local_manifest.xml` exists, it will be loaded before any mani
 
 
 
-
+More options
+--------------
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <remove-project name="platform/external/jpeg" />
