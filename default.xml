@@ -13,7 +13,8 @@
  <project path="build" name="platform_build" remote="sp" revision="kk-4.4" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  
+ 
+  <project path=".repo/local_manifests" name="spawn_manifest" remote="sp" revision="master" />
   <project path="device/samsung/jflte" name="platform_device_samsung_jflte" groups="pdk" remote="sp" revision="kk-4.4" />
   <project path="device/samsung/hlte" name="platform_device_samsung_hlte" groups="pdk" remote="sp" revision="kk-4.4" />
   <project path="device/samsung/msm8960-common" name="platform_device_samsung_msm8960-common" groups="pdk" remote="sp" revision="kk-4.4" />
@@ -27,5 +28,4 @@
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="packages/services/Telephony" name="platform_packages_services_telephony" remote="sp" revision="kk-4.4" />
   <project path="vendor/samsung" name="platform_vendor_samsung" remote="sp" revision="kk-4.4" />
-  <project path=".repo/local_manifests" name="spawn_manifest" remote="sp" revision="master" />
   </manifest>
