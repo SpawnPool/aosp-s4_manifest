@@ -3,10 +3,7 @@
 
   <remote name="sp"
            fetch="git://github.com/SpawnPool/" />
-  <default revision="refs/tags/kk-4.4"
-           remote="sp"
-           sync-j="4" />
-		   
+
   <remote name="aosp"
            fetch="https://android.googlesource.com/" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
            
