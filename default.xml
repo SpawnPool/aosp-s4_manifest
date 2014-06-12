@@ -12,6 +12,7 @@
            
  <project path="build" name="platform_build" remote="sp" revision="kk-4.4" >
     <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   
   <project path="device/samsung/jflte" name="platform_device_samsung_jflte" groups="pdk" remote="sp" revision="kk-4.4" />
   <project path="device/samsung/hlte" name="platform_device_samsung_hlte" groups="pdk" remote="sp" revision="kk-4.4" />
