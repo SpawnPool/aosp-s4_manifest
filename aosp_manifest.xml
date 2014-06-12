@@ -4,6 +4,7 @@
   <remote name="aosp"
            fetch="https://android.googlesource.com/" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
 
+  </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="cts" name="platform/cts" groups="cts" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
@@ -69,7 +70,7 @@
   <project path="external/expat" name="platform/external/expat" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="external/eyes-free" name="platform/external/eyes-free" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="external/fdlibm" name="platform/external/fdlibm" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
-  <project path="external/flac" name="platform/external/flac" groups="pdk" revision="master" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
+  <project path="external/flac" name="platform/external/flac" groups="pdk" remote="aosp" revision="master" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="external/ganymed-ssh2" name="platform/external/ganymed-ssh2" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
@@ -161,7 +162,7 @@
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" /> 
   <project path="external/sfntly" name="platform/external/sfntly" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
-  <project path="external/s4utils" name="android_external_s4utils" remote="sp" revision="master" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
+  <project path="external/s4utils" name="android_external_s4utils" remote="sp" remote="aosp" revision="master" />
   <project path="external/smack" name="platform/external/smack" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="external/smali" name="platform/external/smali" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
