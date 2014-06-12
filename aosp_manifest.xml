@@ -161,7 +161,6 @@
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" /> 
   <project path="external/sfntly" name="platform/external/sfntly" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
-  <project path="external/s4utils" name="android_external_s4utils" remote="sp" remote="aosp" revision="master" />
   <project path="external/smack" name="platform/external/smack" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="external/smali" name="platform/external/smali" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
