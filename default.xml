@@ -14,7 +14,6 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
  
-  <project path=".repo/local_manifests" name="spawn_manifest" remote="sp" revision="master" />
   <project path="device/samsung/jflte" name="platform_device_samsung_jflte" groups="pdk" remote="sp" revision="kk-4.4" />
   <project path="device/samsung/hlte" name="platform_device_samsung_hlte" groups="pdk" remote="sp" revision="kk-4.4" />
   <project path="device/samsung/msm8960-common" name="platform_device_samsung_msm8960-common" groups="pdk" remote="sp" revision="kk-4.4" />
