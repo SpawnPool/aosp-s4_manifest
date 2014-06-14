@@ -9,7 +9,6 @@
  
   <project path="frameworks/base" name="platform_frameworks_base" remote="sp" revision="kk-4.4" />
   <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="sp" revision="kk-4.4" />
-  <project path="external/s4utils" name="android_external_s4utils" remote="sp" revision="kk-4.4" />
   <project path="external/skia" name="android_external_skia" remote="sp" revision="kk-4.4" />
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="sp" revision="kk-4.4" />
