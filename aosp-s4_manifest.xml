@@ -7,11 +7,17 @@
   <remote name="aosp"
            fetch="https://android.googlesource.com/" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
  
+
+ <project path="build" name="platform_build" remote="sp" revision="kk-4.4" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  
   <project path="frameworks/base" name="platform_frameworks_base" remote="sp" revision="kk-4.4" />
   <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="sp" revision="kk-4.4" />
   <project path="external/skia" name="android_external_skia" remote="sp" revision="kk-4.4" />
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="sp" revision="kk-4.4" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_settings" remote="sp" revision="kk-4.4" />
   <project path="packages/services/Telephony" name="platform_packages_services_telephony" remote="sp" revision="kk-4.4" />
   </manifest>
