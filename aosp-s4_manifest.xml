@@ -12,10 +12,6 @@
            sync-j="12" />
  
 
- <project path="build" name="platform_build" remote="sp" revision="kk-4.4" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
-  
   <project path="frameworks/base" name="platform_frameworks_base" remote="sp" revision="kk-4.4" />
   <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="sp" revision="kk-4.4" />
   <project path="external/skia" name="android_external_skia" remote="sp" revision="kk-4.4" />
